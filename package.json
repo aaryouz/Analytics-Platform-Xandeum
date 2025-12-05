@@ -1,0 +1,37 @@
+{
+  "name": "analytics-platform-xandeum",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "xandeum",
+    "pnode",
+    "analytics",
+    "solana",
+    "blockchain"
+  ],
+  "author": "Xandeum Analytics Team",
+  "license": "MIT",
+  "description": "Real-time analytics platform for Xandeum pNodes",
+  "dependencies": {
+    "@solana/web3.js": "^1.98.4",
+    "@tanstack/react-query": "^5.90.12",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.22",
+    "axios": "^1.13.2",
+    "next": "^14.2.33",
+    "postcss": "^8.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.5.1",
+    "tailwindcss": "^3.4.18",
+    "typescript": "^5.9.3"
+  }
+}
